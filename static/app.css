@@ -1,26 +1,26 @@
 
-html，
-#app，
-身体 {
-  身高： 100 ％
+html,
+#app,
+body {
+  height: 100%
 }
-html { overflow-y：hidden ; }
+html { overflow-y: hidden; }
 
-/ *侧栏菜单* /
+/* The sidebar menu */
 .sidenav {
-  身高： 100 ％ ; / *全高：如果你想要“自动”高度，请将此删除* /
-  宽度： 225 像素 ; / *设置边栏的宽度* /
-  位置：固定 ; / *固定边栏（保持滚动状态）* /
-  z-index： 1 ; / *留在最上面* /
-  top： 0 ; / *留在顶部* /
-  左： 0 ;
-  / * background-color：＃00695C; * /
-  overflow-x： hidden ; / *禁用水平滚动* /
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 225px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  /* background-color: #00695C; */
+  overflow-x: hidden; /* Disable horizontal scroll */
 }
 
-/ *样式页面内容* /
+/* Style page content */
 #map {
-  保证金余额： 225 px ;
-  身高： 100 ％ ;
-  background-color： lightgray ;
+  margin-left: 225px;
+  height: 100%;
+  background-color: lightgray;
 }
