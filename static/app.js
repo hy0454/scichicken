@@ -211,6 +211,8 @@ vapp = new Vue({
         flags |= 0b00000000000000000100000000000000
       }
       return flags
+          }
+  },
   methods: {
     toggleRefresh () {
       if (appData.autoRefresh) {
