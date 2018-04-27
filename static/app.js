@@ -40,6 +40,42 @@ vapp = new Vue({
     showItemAmmo: false,
     showItemAll: false,
 
+    // --------------------------------------------------------------------------
+
+    showBack: true,
+    showArmor2: true,
+    showHead2: true,
+    showArmor3: true,
+    showHead3: true,
+    showFirstAid: true,
+    showMedKit: true,
+    showDrink: true,
+    showGrenade: true,
+    showSmokeBomb: false,
+    showAmmo556: false,
+    showAmmo762: false,
+    showForeGrip: false,
+    showLowST: false,
+    showHighST: true,
+    showARCnFH: false,
+    showARSuppressor: true,
+    showARExtended: false,
+    showARStock: false,
+    showSRFlashHider: false,
+    showSRSuppressor: true,
+    showSRExtended: false,
+    showSRStock: false,
+    showM16A4: false,
+    showSCAR: true,
+    showAK47: false,
+    showHK416: true,
+    showPan: true,
+    showMini14: false,
+    showSKS: false,
+    showKar98k: true,
+
+    // --------------------------------------------------------------------------
+
     coordinate: '',
     toggleButtonText: '停止刷新'
   },
